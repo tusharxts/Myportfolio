@@ -354,7 +354,7 @@ footer .link-group a:hover {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
   height: 280px;
-
+  padding: auto;
 }
 #hm {
   overflow-y: hidden;
