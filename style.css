@@ -115,6 +115,7 @@ body {
   }
   100% {
     transform: translateX(0);
+    overflow-x: hidden;
   }
 }
 
@@ -353,6 +354,12 @@ footer .link-group a:hover {
 .card-img-top {
   border-top-left-radius: var(--bs-card-inner-border-radius);
   border-top-right-radius: var(--bs-card-inner-border-radius);
-  height: 280px;
-  width: 380px;
+  height: 270px;
+  /* width: 350px; */
+  padding: auto;
+  /* gap: 4px; */
+}
+
+#hm {
+  overflow-y: hidden;
 }
